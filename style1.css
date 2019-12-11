@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 8vh;
+    background-color:rgb(117, 90, 105);
+}
+.logo{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform : uppercase;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.burger div{
+    background-color:red;
+    width: 25px;
+    height: 2px;
+    margin: 5px;
+}
