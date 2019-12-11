@@ -5,6 +5,7 @@
 }
 nav{
     display: flex;
+    padding: 10px;
     justify-content: space-around;
     text-align: center;
     min-height: 8vh;
@@ -31,9 +32,32 @@ nav{
     font-weight: bold;
     font-size: 14px;
 }
+.burger{
+    cursor: pointer;
+    display: none;
+}
 .burger div{
     background-color:red;
     width: 25px;
     height: 2px;
     margin: 5px;
+}
+
+@media screen and (max-width:750px){
+    .nav-links{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .nav-links{
+        position: absolute;
+        display: flex;
+        /* align-items: center; */
+        flex-direction: column;
+        right: 0px;
+        top: 8vh;
+        height: 92vh;
+        background-color: rgb(117, 90, 105);
+    }
 }
